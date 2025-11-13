@@ -1,11 +1,11 @@
 {
-  "name": "n8n-whatsapp-dolibarr",
+  "name": "n8n-whatsapp-railway",
   "version": "1.0.0",
-  "description": "WhatsApp Dolibarr integration with n8n",
+  "description": "WhatsApp integration with n8n",
   "main": "index.js",
   "scripts": {
-    "start": "./start.sh",
-    "build": "echo 'No build needed'",
+    "start": "npx n8n start",
+    "build": "npm install",
     "dev": "npx n8n start --tunnel"
   },
   "dependencies": {
