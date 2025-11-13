@@ -1,0 +1,17 @@
+{
+  "name": "n8n-whatsapp-dolibarr",
+  "version": "1.0.0",
+  "description": "WhatsApp Dolibarr integration with n8n",
+  "main": "index.js",
+  "scripts": {
+    "start": "./start.sh",
+    "build": "echo 'No build needed'",
+    "dev": "npx n8n start --tunnel"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
