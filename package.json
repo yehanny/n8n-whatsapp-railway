@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx n8n start",
-    "build": "npm install",
+    "build": "npm install --omit=dev",
     "dev": "npx n8n start --tunnel"
   },
   "dependencies": {
